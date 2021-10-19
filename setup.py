@@ -57,7 +57,7 @@ setup(
     description='An easy toolbox for deploying and accelerating PyTorch, Onnx and Tensorflow models with TensorRT.',
     long_description=read('README.md'),
     setup_requires=[
-        'tensorrt>=7.1.0.*',
+        'nvidia-tensorrt>=7.1.0.*',
     ],
     install_requires=[
         'numpy',
